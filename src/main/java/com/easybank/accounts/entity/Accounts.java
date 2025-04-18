@@ -3,9 +3,6 @@ package com.easybank.accounts.entity;
 import jakarta.persistence.*;
 import lombok.*;
 
-import java.time.LocalDateTime;
-import java.util.Date;
-
 @Entity
 @Getter
 @Setter
@@ -13,7 +10,7 @@ import java.util.Date;
 @NoArgsConstructor
 @AllArgsConstructor
 @Table(name = "accounts")
-public class Account extends BaseEntity{
+public class Accounts extends BaseEntity{
 
     @Id
     @Column(name = "account_number")
